@@ -1,0 +1,176 @@
+body{
+    background: black;
+    min-height: 100vh;
+}.input-form{
+    background-color: white;
+    width: 30%;
+    margin: 2em auto;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 3px 4px 15px 4px #000000;
+}
+input{
+    width: 90%;
+    display: block;
+    margin: .5em auto;
+    margin-top: .1em;
+    padding: .5em .2em;
+    outline-color: #6c286c;
+    border: solid;
+    border-radius: 5px;
+}
+label{
+    font-size: .8em;
+    color: black;
+    margin-left: 1.5em;
+}
+input[type='submit']{
+    margin-top: 20px;
+    background-color: #5555c5;
+    color: #fff;
+    border: none;
+    padding: .7em;
+    border-radius: 10px;
+    
+}
+input[type='submit']:hover{
+    background-color: #3535a5;
+}
+.alert{
+    text-align: center;
+    font-size: 30px;
+    color: #e05555;
+}
+.title{
+    text-align: center;
+    color: #3535a5;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 28px;
+    background: linear-gradient(to right, #8affd1, #b399ff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.navbar{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 0px #00000055;
+    padding: 0.01em;
+}
+.right-link{
+    display: inline-block;
+    width: 20%;
+    margin-left: auto;
+    
+}
+li{
+    display: inline-block;
+    padding: 1em;
+}
+.right-link a{
+    text-decoration: none;
+    color: blue;
+    padding: 10px;
+}
+.right-link a:hover{
+    background-color: skyblue;
+    border-radius: 10px;
+    padding: 2px;
+    
+}
+.left-link{
+    display: inline-block;
+    width: 60%;
+    margin: 0px;
+    margin-left: auto;
+    padding-left: 10%;
+}
+.left-link a{
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+}
+.container{
+    min-height: 40vh;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px #00000055;
+    position: relative;
+}
+.cantorne{
+    min-height: 30vh;
+    width: 100%;
+    background-color: blue;
+    padding: .5em;
+    background-image: url("joshua.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.pro-pic{
+    background-color: #faf;
+    border: solid 5px #fff;
+    border-radius: 50%;
+    width: 30vh;
+    height: 30vh;
+    position: absolute;
+    bottom: -15vh;
+    left: 5vh;
+    z-index: 100;
+    box-shadow: 2px 2px 2px 0px #00000055;
+    background-image: url("naruto.jpg");
+}
+.name{
+    font-size: 2.5em;
+    color: black;
+    position: absolute;
+    left: 38vh;
+    bottom:-7vh;
+}
+.post-container{
+    margin: 2vh;
+    margin-top: 15vh;
+}
+#post-form{
+    width: 50%;
+    margin: auto;
+}
+#post-area{
+    display: block;
+    resize: none;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 15px;
+}
+#post-button{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+.logo{
+    background-image: url(josh.jpg);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.post-block{
+    color: whitesmoke;
+    padding: 1em;
+    margin: .5em .5em;
+    border: solid .5px #8c488c;
+    border-radius: 5px;
+    background-color: black;
+}
+.post-content{
+    margin-top: .5em;
+    padding-left: 1em;
+}
